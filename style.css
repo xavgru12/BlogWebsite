@@ -1,0 +1,166 @@
+*{
+    font-family: arial, helevetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar{
+    text-decoration: none;
+    height: 60px;
+    background-color: #000000;
+}
+
+.navbar ul{
+    text-align: center;
+    
+}
+.pc{
+    display: none;
+}
+
+
+
+
+.cell{
+    display: inline-block;
+    margin: 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+        color: #FAFAFA;
+}
+
+.navbar li a:hover{
+    color: #0101DF;
+    text-decoration: underline;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    padding: 20px 0 0 0;
+    font-size: 24px;
+}
+
+h2{
+    padding: 20px 30px 20px;
+    font-size: 18px; 
+}
+
+.basic-section{
+    
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.yt_box{
+    position: relative;
+    max-width: 560px;
+    margin: 0 auto;
+    margin-top: 20px 0;
+}
+
+.yt_box:before{
+    content: "";
+    display: block;
+    padding-top: 56%;
+}
+
+.yt_box iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.bilder{
+    width: 100%;
+}
+
+.basic-section p{
+    padding: 0px 30px 20px;
+    
+}
+
+footer{
+    display: none;
+    padding-top: 50px;
+}
+
+
+@media only screen and (min-width: 768px){
+    .pc{
+    margin: 20px;
+    display: inline-block;
+       
+    }
+    
+    .cell{
+        display: none;
+    }
+    .basic-section{
+    
+    
+    width: 600px;
+   
+    
+   }
+    .basic-section p{
+    padding: 0px 0px 0px;
+    
+    }
+    
+      .eintrag p{
+        padding-top: 10px;
+    }
+    
+    .bilder{
+        padding-top: 30px;
+    }
+   
+}
+
+
+@media only screen and (min-width: 1000px){
+     .basic-section{
+    
+    
+    width: 1000px;
+   
+    
+   }
+    
+    .eintrag{
+    width: 50%;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    
+        
+    
+    }
+    
+    .eintrag p{
+        padding-top: 20px;
+    }
+    
+    .bilder{
+    padding: 20px 0px;    
+    margin: 0px; 
+    float: right; 
+    width: 40%;
+      
+    
+    }
+    
+    
+}
